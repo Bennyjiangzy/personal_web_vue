@@ -2,8 +2,7 @@
 // Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
 
 const Singleprojects = {
-    1:{
-        singleProjectHeader: {
+    1:{singleProjectHeader: {
             singleProjectTitle: `Farm Monitor System`,
             singleProjectDate: 'Sep, 2022 ~ Dec 2022',
             singleProjectTag: 'Developer / Containerization / Devops',
@@ -80,7 +79,7 @@ const Singleprojects = {
     projectImages: [
         {
             id: 1,
-            title: 'Kabul Project Management UI',
+            title: 'student demo1',
             img: require('@/assets/images/K8S.png'),
         },
         {
@@ -139,7 +138,7 @@ const Singleprojects = {
     projectImages: [
         {
             id: 1,
-            title: 'Kabul Project Management UI',
+            title: 'ANP demo1',
             img: require('@/assets/images/ANP.png'),
         },
     ],
@@ -193,17 +192,17 @@ const Singleprojects = {
     projectImages: [
         {
             id: 1,
-            title: 'Kabul Project Management UI',
+            title: 'Pygame demo1',
             img: require('@/assets/images/Pygame.png'),
         },
         {
             id: 2,
-            title: 'Kabul Project Management UI',
+            title: 'Pygame demo2',
             img: require('@/assets/images/game2.png'),
         },
         {
             id: 3,
-            title: 'Kabul Project Management UI',
+            title: 'Pygame demo3',
             img: require('@/assets/images/game3.png'),
         },
     ],
@@ -255,17 +254,17 @@ const Singleprojects = {
     projectImages: [
         {
             id: 1,
-            title: 'Kabul Project Management UI',
+            title: 'reminder demo1',
             img: require('@/assets/images/Happy.png'),
         },
         {
             id: 2,
-            title: 'Kabul Project Management UI',
+            title: 'reminder demo2',
             img: require('@/assets//images/reminder4.png'),
         },
         {
             id: 3,
-            title: 'Kabul Project Management UI',
+            title: 'reminder demo3',
             img: require('@/assets/images/reminder3.jpg'),
         },
     ],
@@ -314,7 +313,65 @@ const Singleprojects = {
                     "This project marks the first website project in my life, and it has been a tremendous learning experience for me. Throughout this endeavor, I acquired valuable knowledge, such as understanding the distinctions between various HTTP requests, fostering teamwork, dynamically rendering web pages, and utilizing advanced JavaScript techniques. Most importantly, I developed self-motivation and pushed myself beyond my comfort zone, allowing me to grow personally and professionally.",
             },
         ]
-    }}
+    }},
+    6:{singleProjectHeader: {
+        singleProjectTitle: `.Net Core Simple Weather Web`,
+        singleProjectDate: '3 days',
+        singleProjectTag: 'Developer / Frontend / Backend',
+    },
+    projectImages: [
+        {
+            id: 1,
+            title: 'Weather demo1',
+            img: require('@/assets/images/Razorimgs/show1.png'),
+        },
+        {
+            id: 2,
+            title: 'Weather demo2',
+            img: require('@/assets/images/Razorimgs/show2.png'),
+        },
+        {
+            id: 3,
+            title: 'Weather demo3',
+            img: require('@/assets/images/Razorimgs/show3.png'),
+        },
+    ],
+    projectInfo: {
+        source:"https://github.com/Bennyjiangzy/Weathershow",
+        sourcesimple:".Net Core Simple Weather Web",
+        objectivesHeading: 'Objective',
+        objectivesDetails:
+            'This web app was built as a practice project to enhance my proficiency in high-level C# and .NET Core concepts, including Dependency Injection, MVC pattern, Interfaces, Custom Controllers, Custom Filters, and Razor Views. It provided valuable hands-on experience and deepened my understanding of these techniques, preparing me for future development challenges.',
+        technologies: [
+            {
+                title: 'Tools & Technologies',
+                techs: [
+                    '.Net core',
+                    'C#',
+                    'Razor View'
+                ],
+            },
+        ],
+        projectDetailsHeading: 'Process & Challenge',
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "I am proud to present my .NET Core project, which serves as a testament to my dedicated self-learning journey spanning four months. Throughout this period, I immersed myself in books and video resources to acquire a wide range of high-level skills, and I strived to implement them effectively in this demo. The project showcases my proficiency in key concepts such as inheritance, encapsulation, polymorphism, dependency injection, interfaces, and delegation. These skills have enabled me to develop a robust and well-structured application, reflecting my commitment to continuously improving and applying my knowledge in practical scenarios.",
+            },
+            {
+                id: 2,
+                details:
+                    "One of the main challenges I encountered in my journey was grasping the concept of dependency injection and effectively implementing it. Initially, I believed I understood the concept, but I lacked clarity on its practical application. To overcome this hurdle, I embarked on a hands-on approach by experimenting with three fundamental types of dependency injection: singleton, transient, and scoped. Through this process, I gained a profound understanding of when and how to utilize each type, becoming well-versed in the native dependency injection methods. Notably, I successfully implemented dependency injection in a project, further solidifying my comprehension. Additionally, I expanded my knowledge by exploring third-party DI methods, enhancing my skill set in this area.",
+            },
+            {
+                id: 3,
+                details:
+                    "I am thrilled to have successfully completed this project within a tight timeframe of less than three days, as it has served as a valuable opportunity for me to solidify my C# skills. While I acknowledge that certain aspects, such as the hardcoded database and the absence of a custom data interface, could be further enhanced, my primary focus was on consolidating my proficiency in C# technology. Leveraging the knowledge gained during my internship, I have demonstrated a mastery of C# syntax, allowing me to efficiently implement key functionalities and deliver a functional solution. I remain committed to refining my skills and continuously improving the project's architecture and extensibility in future iterations.",
+            }
+        ]
+    }
+    },
 };
 
 export default Singleprojects;
