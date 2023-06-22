@@ -41,9 +41,9 @@ export default {
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="Benny-Resume.pdf"
 					href="/files/bennyj_res.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+					target="__blank"
 					aria-label="Download Resume"
 				>
 					<i
@@ -52,7 +52,7 @@ export default {
 					></i>
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Download CV</span
+						>View Resume</span
 					></a
 				>
 			</div>
