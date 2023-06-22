@@ -372,6 +372,65 @@ const Singleprojects = {
         ]
     }
     },
+    7:{singleProjectHeader: {
+        singleProjectTitle: `Waste Mask & Glove Detect Model`,
+        singleProjectDate: 'Sep, 2021 ~ Dec 2021',
+        singleProjectTag: 'Developer & Leader / Machine Learning',
+    },
+    projectImages: [
+        {
+            id: 1,
+            title: 'Weather demo1',
+            img: require('@/assets/images/Yolov/essay3.png'),
+        },
+        {
+            id: 2,
+            title: 'Weather demo2',
+            img: require('@/assets/images/Yolov/essay1.png'),
+        },
+        {
+            id: 3,
+            title: 'Weather demo3',
+            img: require('@/assets/images/Yolov/essay2.png'),
+        },
+    ],
+    projectInfo: {
+        source:"https://github.com/Bennyjiangzy/Yolov_AI",
+        sourcesimple:"Waste Mask & Glove Detect Model",
+        objectivesHeading: 'Objective',
+        objectivesDetails:
+            "This project explores the possibility of using computer vision and underwater Remotely Operated Vehicles (ROVs) to detect medical waste, such as masks and gloves in oceans. We use a single-stage detector to train the machine learning approach and then validate the results using the video feed from the tethered ROV.",
+        technologies: [
+            {
+                title: 'Tools & Technologies',
+                techs: [
+                    'Python',
+                    'Yolov5&4',
+                    'RobotFlow',
+                    "Google Colab"
+                ],
+            },
+        ],
+        projectDetailsHeading: 'Process & Challenge',
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "My team, mentor, and I worked on this project for three months. Due to the impact of the pandemic, we observed a significant amount of discarded medical supplies, such as gloves and masks, polluting the oceans in recent years. Therefore, we aimed to utilize AI training models to assist in the retrieval of these waste materials. After the topic was established, we extensively researched relevant literature. I primarily focused on formulating the problem statement, building the training model, and conducting performance testing.",
+            },
+            {
+                id: 2,
+                details:
+                    "The biggest challenge I encountered in this project was determining the most effective metrics for assessing the accuracy of the training models, such as confusion matrix, validation and training loss, among others. I had to extensively research literature and examples, dedicating one to two weeks to simulate and train 7 to 8 models on YOLOv4 and YOLOv5 frameworks. Subsequently, I compared and tested the models based on the obtained results.",
+            },
+            {
+                id: 3,
+                details:
+                    "Overall, this project has been incredibly fascinating. I have learned a great deal about the underlying principles of computer vision and machine learning, such as convolutional neural networks. Additionally, I have gained experience in approaching projects from an academic perspective, including utilizing training models like YOLOv5, applying for the use of Google Colab, and utilizing software like Robotflow for annotation purposes. I am grateful to Dr. Michal for his guidance and support, which ultimately led to the publication of our research paper.",
+            }
+        ]
+    }
+    },
 };
 
 export default Singleprojects;

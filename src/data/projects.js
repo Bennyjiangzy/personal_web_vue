@@ -27,6 +27,12 @@ const projects = [
 		img: require('@/assets/images/ANP.png'),
 	},
 	{
+		id: 7,
+		title: 'Waste Mask & Glove Detect Model',
+		category: 'Machine Learning',
+		img: require('@/assets/images/Yolov/essay2.png'),
+	},
+	{
 		id: 4,
 		title: 'Mini RPG Game',
 		category: 'Game Application',

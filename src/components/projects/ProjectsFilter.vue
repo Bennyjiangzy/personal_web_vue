@@ -11,7 +11,8 @@ export default {
 			default: () => [
 				'Web Application',
 				'Microservice Application System',
-				'Game Application'
+				'Game Application',
+				'Machine Learning'
 			],
 		},
 	},
