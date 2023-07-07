@@ -431,6 +431,66 @@ const Singleprojects = {
         ]
     }
     },
+    8:{singleProjectHeader: {
+        singleProjectTitle: `Translation Joke App`,
+        singleProjectDate: 'July, 2023 ~ July 2023',
+        singleProjectTag: 'Developer & API Integration',
+    },
+    projectImages: [
+        {
+            id: 1,
+            title: 'Translation demo1',
+            img: require('@/assets/images/Translate/demo1.png'),
+        },
+        {
+            id: 2,
+            title: 'Translation demo2',
+            img: require('@/assets/images/Translate/demo2.png'),
+        },
+        {
+            id: 3,
+            title: 'Translation demo3',
+            img: require('@/assets/images/Translate/demo3.png'),
+        },
+    ],
+    projectInfo: {
+        source:"https://github.com/Bennyjiangzy/demo_work",
+        sourcesimple:"Translation Joke App",
+        objectivesHeading: 'Objective',
+        objectivesDetails:
+            "This web app was created for a demo competition and designed by Vue, TypeScript and Node Express. It integrated with three Api, allow user to get a joke by option, translate language and joke in real-time, get, save, delete a dog image",
+        technologies: [
+            {
+                title: 'Tools & Technologies',
+                techs: [
+                    'Vue',
+                    "TypeScript",
+                    'Node&Express',
+                    "Bootstrap",
+                    'Docker'
+                ],
+            },
+        ],
+        projectDetailsHeading: 'Process & Challenge',
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "The first technical challenge is Real-time translation.  I want users to complete the translation after they typed rather than click the button. It will waster too many time during interaction. Therefore, I set an input event to trigger the call but that will cause every time a letter typed, it will send the request and increase the server load. I finally fix it by add a settime function it will always hold for 2 seconds after a type call. If the user really finish the typing it will send the request.",
+            },
+            {
+                id: 2,
+                details:
+                    "The second technical challenge is Parse value among components. There was a scene that user can click the translate button to translate a joke directly in my app. But the joke and translate are two different components which cannot communicate directly for exchange the value. Therefore, I serached the answer for document and the solution will be that create a send value event in joke, then create a recive event in their parent component which is home, from that to send the value to translate component. Finally, set a watch component to listen that value, if changed means user click the translate in joke, and call the predefined method in translate.",
+            },
+            {
+                id: 3,
+                details:
+                    "The another challenge I met is a Misunderstanding problem. In the first two days of development, I misunderstood the meaning of the requirements and did not integrate the APIs, but did different functions separately until I foud this mistake in the next afternoon. I first re-read the requirements carefully, tested the given dog and joke API by poostman. I finally choose joke api since is a pure text response. The time is urgen, so I re-planned the map and execute it. Spent two hour in build and testing backend, another two hour in frontend. And one hour in testing on cloud. As a result, I successfully complete the correct requrement in the end of the day. I think it is very common to misinterpret user needs or change user needs in the real development process. You must have the ability to re-plan the development route according to the needs in anypart of the development.",
+            }
+        ]
+    }
+    },
 };
 
 export default Singleprojects;

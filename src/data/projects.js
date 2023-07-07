@@ -3,6 +3,12 @@
 
 const projects = [
 	{
+		id: 8,
+		title: 'Translation Joke App',
+		category: 'Web Application',
+		img: require('@/assets/images/Translate/demo1.png'),
+	},
+	{
 		id: 6,
 		title: '.Net Core Simple Weather Web',
 		category: 'Web Application',
@@ -44,7 +50,6 @@ const projects = [
 		category: 'Web Application',
 		img: require('@/assets/images/Happy.png'),
 	},
-	
 ];
 
 export default projects;
