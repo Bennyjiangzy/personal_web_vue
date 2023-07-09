@@ -491,6 +491,60 @@ const Singleprojects = {
         ]
     }
     },
+    9:{singleProjectHeader: {
+        singleProjectTitle: `Stock App`,
+        singleProjectDate: 'May, 2023 ~ est Aug 2023',
+        singleProjectTag: 'Developer & API Integration',
+    },
+    projectImages: [
+        {
+            id: 1,
+            title: 'stock demo1',
+            img: require('@/assets/images/stockapp/demo1.png'),
+        },
+        {
+            id: 2,
+            title: 'stock demo2',
+            img: require('@/assets/images/stockapp/demo2.png'),
+        },
+    ],
+    projectInfo: {
+        source:"https://github.com/Bennyjiangzy/StockApp",
+        sourcesimple:"Stock App [Still Working]",
+        objectivesHeading: 'Objective',
+        objectivesDetails:
+            "An web app support user to view stocks, trade and sell. Provide real-time update. Developed based on .netcore with TDD.",
+        technologies: [
+            {
+                title: 'Tools & Technologies',
+                techs: [
+                    'C#',
+                    ".NetCore",
+                    'WebSocket',
+                    "Unittest",
+                ],
+            },
+        ],
+        projectDetailsHeading: 'Process & Challenge',
+        projectDetails: [
+            {
+                id: 1,
+                details:
+                    "This web app developed based on C#. I integrated with a free stock API to get update information, allow user to view stock by name and ID, check current price, and sell, buy the stock. Currenly still working on other function. Estimate complete date around Aug 2023.",
+            },
+            {
+                id: 2,
+                details:
+                    "Current working function include login function, integrated with serilog, authorization & session, advanced unit test and filters",
+            },
+            {
+                id: 3,
+                details:
+                    "",
+            }
+        ]
+    }
+    },
 };
 
 export default Singleprojects;

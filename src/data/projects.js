@@ -3,6 +3,12 @@
 
 const projects = [
 	{
+		id: 9,
+		title: 'Stock App [Still Working]',
+		category: 'Web Application',
+		img: require('@/assets/images/stockapp/demo1.png'),
+	},
+	{
 		id: 8,
 		title: 'Translation Joke App',
 		category: 'Web Application',
@@ -10,7 +16,7 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: '.Net Core Simple Weather Web',
+		title: 'Simple Weather Web',
 		category: 'Web Application',
 		img: require('@/assets/images/Razorimgs/show1.png'),
 	},
